@@ -1,0 +1,53 @@
+@keyframes corruption-btn {
+  0% {
+    background-color: #402544;
+    border: 7px solid #402544;
+  }
+  50% {
+    background-color: #5C1966;
+    border: 7px solid #5C1966;
+  }
+  100% {
+    background-color: #402544;
+    border: 7px solid #402544;
+  }
+}
+
+@keyframes corruption-btn-rev {
+  0% {
+    background-color: #5C1966;
+    border: 7px solid #5C1966;
+  }
+  50% {
+    background-color: #402544;
+    border: 7px solid #402544;
+  }
+  100% {
+    background-color: #5C1966;
+    border: 7px solid #5C1966;
+  }
+}
+
+
+.stf-github-btn {
+	background-color: #5C1966;
+	border: 7px solid #5C1966;
+	border-radius: 5px;
+	padding: 0px 0px;
+
+  width:225px;
+  height:78px;
+
+  margin-left: 5px !important;
+  padding-right: 5px;
+}
+
+.stf-github-btn:hover {
+  background-color: #5C1966;
+  border: 7px solid #5C1966;
+  transition: 0.3s;
+
+  animation: corruption-btn-rev 1s infinite;
+}
+
+

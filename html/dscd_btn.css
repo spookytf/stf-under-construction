@@ -1,0 +1,15 @@
+.stf-discord-btn {
+	background-color: #465486;
+	border: 7px solid #465486;
+	border-radius: 5px;
+	transition: 0.3s;
+	padding: 0px 0px;
+}
+
+.stf-discord-btn:hover {
+	background-color: #20263c;
+	border-color: #20263c;
+	padding: 0px 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
